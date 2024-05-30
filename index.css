@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    .ubuntu-mono-regular {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .ubuntu-mono-regular-italic {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .ubuntu-mono-bold {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .ubuntu-mono-bold-italic {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right ,#01022d,#000 );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image:
+    linear-gradient(to right, #01022de5 30%,#00000088),
+    url(AVATAR.WEBP);
+    background-position:center;
+    height: 640px;
+    width: 75%;
+}
+.container:hover{
+    background-image:
+    linear-gradient(to right, #01022de5 30%, transparent),
+    url(AVATAR.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+.content{
+    color: white;
+    margin-top: 70px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+    text-transform:uppercase
+}
+.content p{
+    letter-spacing: 2px;
+    width: 400px;
+    padding: 20px 0;
+}
+.content button{
+    font-size: 20px;
+    padding: 5px 10px; 
+    border-radius:10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    
+}
